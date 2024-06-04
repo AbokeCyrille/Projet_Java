@@ -76,10 +76,10 @@ public class Main {
             championnat.afficherEquipePlusGrosScore();
 
             // Sauvegarder l'état du championnat
-            championnat.sauvegarderEtat("championnat.dat");
+            championnat.sauvegarderEtat("championnat.txt");
 
             // Pour charger un championnat:
-            // Championnat championnat = Championnat.chargerEtat("championnat.dat");
+             //championnat.chargerEtat("championnat.txt");
             // championnat.afficherClassement();
 
         } catch (IOException e) {
